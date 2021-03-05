@@ -1,10 +1,11 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import { Constants } from 'expo';
+import  Constants  from 'expo-constants';
 
 import ExpressionBox from './components/ExpressionBox.js';
 import ResultBox from './components/ResultBox.js';
 import NumPad from './components/NumPad.js';
+import { evaluate } from 'mathjs';
 
 // We are using math.js library to calculate results from any string expression
 const math = require('mathjs');
@@ -35,8 +36,9 @@ export default class App extends React.Component {
 
   _calculateResult() {
     let result;
+    //console.log(math.sin(4));
     try {
-      result = math.eval(this.state.expression);
+      result = math.evaluate(this.state.expression);
     } catch (e) {
       result = 'Error';
     }

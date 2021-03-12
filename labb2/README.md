@@ -2,7 +2,7 @@
 
 # RESPONSYWNE LAYOUTY + NAWIGACJA
 
-Utworzone zostały trzy ekrany, każdy inaczej ostylowany za pomocą pliku `styles.js`
+Utworzone zostały trzy ekrany + ekran `home`, każdy inaczej ostylowany za pomocą pliku `styles.js`
 
 Na każdej stronie zostały utworzone guziki które umożliwiają przejście do pozostałych dwóch stron
 

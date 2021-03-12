@@ -66,6 +66,24 @@ function Example() {
   }
 }`}</Text>
      </View>
+     <Button
+ title={`Rest Parametrs`}
+ onPress={() =>
+ navigation.navigate("RestPar", {
+ id: "second",
+ title: "Rest Parametrs",
+ })
+ }
+ />
+  <Button
+ title={`Spread Operator`}
+ onPress={() =>
+ navigation.navigate("SpreadOp", {
+ id: "first",
+ title: "Spread Operator",
+ })
+ }
+ />
    </View>
  );
 }

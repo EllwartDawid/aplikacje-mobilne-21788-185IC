@@ -75,6 +75,24 @@ myFunction(...args);`}{`
 let args = [0, 1];
 myFunction(-1, ...args, 2, ...[3]);`}</Text>
     </View>
+    <Button
+ title={`Rest Parametrs`}
+ onPress={() =>
+ navigation.navigate("RestPar", {
+ id: "second",
+ title: "Rest Parametrs",
+ })
+ }
+ />
+  <Button
+ title={`Use State`}
+ onPress={() =>
+ navigation.navigate("UseState", {
+ id: "third",
+ title: "Hooks",
+ })
+ }
+ />
    </View>
  );
 }

@@ -42,6 +42,24 @@ myFun("one", "two", "three", "four", "five", "six")
 // manyMoreArgs, ["three", "four", "five", "six"]
 `}</Text>
      </View>
+     <Button
+ title={`Spread Operator`}
+ onPress={() =>
+ navigation.navigate("SpreadOp", {
+ id: "first",
+ title: "Spread Operator",
+ })
+ }
+ />
+  <Button
+ title={`Use State`}
+ onPress={() =>
+ navigation.navigate("UseState", {
+ id: "third",
+ title: "Hooks",
+ })
+ }
+ />
    </View>
  );
 }

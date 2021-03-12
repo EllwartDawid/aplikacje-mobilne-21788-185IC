@@ -12,12 +12,12 @@ Home:
 
 Spread Operator:
 
-![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/labb2/ss/spread.PNG)
+![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/labb2/ss/spreadpopr.PNG)
 
 Rest Parametrs:
 
-![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/labb2/ss/rest.PNG)
+![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/labb2/ss/restpopr.PNG)
 
 Hooks:
 
-![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/labb2/ss/hook.PNG)
+![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/labb2/ss/hookpopr.PNG)

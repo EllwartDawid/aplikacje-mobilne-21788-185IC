@@ -6,7 +6,7 @@
 
 # Widok z działającej aplikacji:
 
-![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/labb1/ss/calculator.PNG)
+![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab1/ss/calculator.PNG)
 
 
 # Utworzyłem cztery komponenty:

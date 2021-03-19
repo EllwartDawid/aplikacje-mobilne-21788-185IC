@@ -10,19 +10,19 @@ Wygląd każdej ze stron:
 
 Home:
 
-![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/labb2/ss/home.PNG)
+![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/Lab2/ss/home.PNG)
 
 Spread Operator:
 
-![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/labb2/ss/spreadpopr.PNG)
+![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/Lab2/ss/spreadpopr.PNG)
 
 Rest Parametrs:
 
-![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/labb2/ss/restpopr.PNG)
+![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/Lab2/ss/restpopr.PNG)
 
 Hooks:
 
-![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/labb2/ss/hookpopr.PNG)
+![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/Lab2/ss/hookpopr.PNG)
 
 W pliku `App.js` znajduje się `createAppContainer` oraz `createStackNavigator`, które odpowiadają za nawigację strony, przelączanie między stronami
 

@@ -3,19 +3,19 @@
 # Renderowanie listy danych + obsługa progresu
 
 
-![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab3/ss/filtr.PNG)
+![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab3/ss/filtr.jpg)
 
 
 
-![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab3/ss/lazy.PNG)
+![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab3/ss/lazy.jpg)
 
 
-![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab3/ss/first.PNG)
+![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab3/ss/first.jpg)
 
 
 
-![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab3/ss/second.PNG)
+![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab3/ss/second.jpg)
 
-![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab3/ss/third.PNG)
+![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab3/ss/third.jpg)
 
 

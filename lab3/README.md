@@ -3,7 +3,7 @@
 # Renderowanie listy danych + obsługa progresu
 
 
-FILTROWANIE I SORTOWANIE:
+# FILTROWANIE I SORTOWANIE:
 
 Strona przedstawia losowe liczby w zakresie od 0 do 1000. Zawiera wyszukiwarkę, któa umożliwia
 
@@ -89,7 +89,7 @@ Każdy plik odpowiada za co innego i razem w pliku `ListContainer` tworzą stron
 
 ![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab3/ss/filtr.jpg)
 
-LAZY LOADING:
+# LAZY LOADING:
 
 Druga strona przedstawia "leniwe ładowanie" listy danych, którą są pseoudolosowe litery
 
@@ -140,6 +140,8 @@ ListLazy.propTypes = {
 ```
 
 ![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab3/ss/lazy.jpg)
+
+# Step Progress
 
 Ostatnia strona zawiera Step Progress, są to trzy podstrony które zawierają wskaźnik postępu. 
 

@@ -10,7 +10,7 @@ Na każdej stronie zostały utworzone guziki które umożliwiają przejście do 
 
 Wygląd strony Home:
 
-![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab4/ss/home.PNG)
+![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab4/ss/home.jpg)
 
 Pierwsza strona przedstawia zastosowanie 'TextInput'
 
@@ -18,7 +18,7 @@ Strona przedstawia różnego rodzaju inputy, zwykły podstawowy tekst do wpisani
 
 pole z wpisanym tekstem dopóki go nie zmienimy, input który po wpisaniu wartości wyświetla ją w innym  wskazanym miejscu
 
-![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab4/ss/str1.PNG)
+![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab4/ss/str1.jpg)
 
 Druga strona przedstawia dwa rozwijane pola wyboru. Po wybraniu opcji z pól, wybrane opcje wyświetlają się obok
 
@@ -26,7 +26,7 @@ Kluczowy jest tutaj plik `SelectingOptions.js`, który deklaruje wszystkie warto
 
 oraz uzależnia je od siebie sprawiając że w zależności od wyboru w pierwszej liście mamy inny wybór w drugiej liście
 
-![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab4/ss/str2.PNG)
+![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab4/ss/str2.jpg)
 
 Trzecia strona przedstawia obsługę przełącznika `Switch`,  tak aby po zmianie jego położenia pojawiał się modal z pseudolosową liczbą
 
@@ -36,9 +36,9 @@ poprzedniej strony ponownie przyciskając przełącznik `Switch`
 
 Plik `TogglingOnAndOff.js` tworzy switch, modal i deklaruje liczby pseudolosowe
 
-![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab4/ss/str3a.PNG)
+![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab4/ss/str3a.jpg)
 
-![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab4/ss/str3b.PNG)
+![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab4/ss/str3b.jpg)
 
 Czwarta strona przedstawia zaimplementowany wybór daty i czasu
 
@@ -52,19 +52,19 @@ w którym należy wybrać datę a następnie pojawia się zegar w którym należ
 
 Po wciśnięciu grugiego guziaka pojawia się nam alert z wybraną datą i godziną
 
-![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab4/ss/str4a.PNG)
+![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab4/ss/str4a.jpg)
 
 Wybór daty:
 
-![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab4/ss/str4b.PNG)
+![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab4/ss/str4b.jpg)
 
 Wybór godziny:
 
-![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab4/ss/str4c.PNG)
+![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab4/ss/str4c.jpg)
 
 Informacja o wybranej dacie po przyciśnięciu guzika:
 
-![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab4/ss/str4d.PNG)
+![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab4/ss/str4d.jpg)
 
 Piąta strona przedstawia zaimplementowany "aktywny" modal + pasywne powiadomienia
 
@@ -74,9 +74,9 @@ oraz drugi który po kliknięciu wyświetla powadomienie
 
 Strona określa czas wyświetlania aktywnego modala używając funkcji `setTimeout()` na czas trwania Promise
 
-![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab4/ss/str5a.PNG)
+![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab4/ss/str5a.jpg)
 
-![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab4/ss/str5b.PNG)
+![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab4/ss/str5b.jpg)
 
 Plik `styles.js` przedstawia style do wszystkich stron
 

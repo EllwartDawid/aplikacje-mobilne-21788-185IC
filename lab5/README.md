@@ -32,7 +32,11 @@ Inaczej zachowuje się przycisk Opacity a inaczej Highlight
 
 Zachowania przycisków przedstawione na poniższych zrzutach ekranów:
 
+Pierwszy zrzut przedstawia zachowanie przycisku Opacity:
+
 ![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab5/ss/touch.jpg)
+
+Drugi zrzut przedstawia zachowanie przycisku Highlight:
 
 ![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab5/ss/touch1.jpg)
 
@@ -40,7 +44,7 @@ Na czwartym ekranie został zastosowany `Swipeable`, obsługa przesunięć palce
 
 W pliku `Swipeable.js` zostało przedstawione działanie strony, zostało przedstawione co ma się wydarzyć po przesunięciu przycisku
 
-W naszym przypadku przycisk znika
+W naszym przypadku po przeciągnięciu przycisku w lewo, przycisk znika
 
 ![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab5/ss/swipe.jpg)
 

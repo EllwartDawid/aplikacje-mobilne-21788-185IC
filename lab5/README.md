@@ -1,8 +1,8 @@
-# LABORATORIUM NUMER 4
+# LABORATORIUM NUMER 5
 
-# obsługa danych wprowadzanych przez użytkownika + modale
+# obsługa gestów użytkownika
 
-Utworzone zostały pięć ekranów + ekran `home`, który zawiera guziki do dowolnych stron.
+Utworzone zostały cztery ekrany + ekran `home`, który zawiera guziki do dowolnych stron.
 
 Każdy inaczej ostylowany za pomocą pliku `styles.js`
 
@@ -10,73 +10,40 @@ Na każdej stronie zostały utworzone guziki które umożliwiają przejście do 
 
 Wygląd strony Home:
 
-![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab4/ss/home.jpg)
+![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab5/ss/home.jpg)
 
-Pierwsza strona przedstawia zastosowanie 'TextInput'
+Pierwsze dwie strony przedstawiają zastosowanie `ScrollView`
 
-Strona przedstawia różnego rodzaju inputy, zwykły podstawowy tekst do wpisania, hasło zasłonięte kropkami, 
+Każda ze stron została ostylowana w inny sposób
 
-pole z wpisanym tekstem dopóki go nie zmienimy, input który po wpisaniu wartości wyświetla ją w innym  wskazanym miejscu
+Dzięki `ScrollView`, możemy przewijać stronę, nie musimy wszystkiego upychać na jednej stronie
 
-![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab4/ss/str1.jpg)
+Po prawej stronie na zrzutach ekranu można zauważyć pasek przewijania (scrollbar)
 
-Druga strona przedstawia dwa rozwijane pola wyboru. Po wybraniu opcji z pól, wybrane opcje wyświetlają się obok
+![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab5/ss/scroll.jpg)
 
-Kluczowy jest tutaj plik `SelectingOptions.js`, który deklaruje wszystkie wartości zawarte w obu rozwijanych listach
+![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab5/ss/scroll1.jpg)
 
-oraz uzależnia je od siebie sprawiając że w zależności od wyboru w pierwszej liście mamy inny wybór w drugiej liście
+Na trzecim ekranie zostały zastosowane `TouchableOpacity` i `TouchableHighlight`
 
-![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab4/ss/str2.jpg)
+W pliku `Button.js` przedstawione zostały zachowania konkretnych przycisków
 
-Trzecia strona przedstawia obsługę przełącznika `Switch`,  tak aby po zmianie jego położenia pojawiał się modal z pseudolosową liczbą
+Inaczej zachowuje się przycisk Opacity a inaczej Highlight
 
-Po przyciśnięciu przycisku `Switch` zostajemy przeniesieni do strony z wylosowaną liczbą, z której możemy cofnąć się do
+Zachowania przycisków przedstawione na poniższych zrzutach ekranów:
 
-poprzedniej strony ponownie przyciskając przełącznik `Switch`
+![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab5/ss/touch.jpg)
 
-Plik `TogglingOnAndOff.js` tworzy switch, modal i deklaruje liczby pseudolosowe
+![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab5/ss/touch1.jpg)
 
-![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab4/ss/str3a.jpg)
+Na czwartym ekranie został zastosowany `Swipeable`, obsługa przesunięć palcem
 
-![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab4/ss/str3b.jpg)
+W pliku `Swipeable.js` zostało przedstawione działanie strony, zostało przedstawione co ma się wydarzyć po przesunięciu przycisku
 
-Czwarta strona przedstawia zaimplementowany wybór daty i czasu
+W naszym przypadku przycisk znika
 
-Po wciśnięciu przycisku 'Show Date' pojawia się alert z wybranymi parametrami czasowymi.
+![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab5/ss/swipe.jpg)
 
-Konieczna była instalacja `@react-native-community/datetimepicker` oraz import `import DateTimePicker from '@react-native-community/datetimepicker';`
-
-Główny wygląd czwartej strony, który przedstawia dwa przyciski, po wciśnięciu pierwszego pojawia się nam kalendarz,
-
-w którym należy wybrać datę a następnie pojawia się zegar w którym należy wybrać godzinę
-
-Po wciśnięciu grugiego guziaka pojawia się nam alert z wybraną datą i godziną
-
-![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab4/ss/str4a.jpg)
-
-Wybór daty:
-
-![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab4/ss/str4b.jpg)
-
-Wybór godziny:
-
-![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab4/ss/str4c.jpg)
-
-Informacja o wybranej dacie po przyciśnięciu guzika:
-
-![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab4/ss/str4d.jpg)
-
-Piąta strona przedstawia zaimplementowany "aktywny" modal + pasywne powiadomienia
-
-Przedstawia guzik który przenosi nas do aktywnego modal oraz dwa teksty, jeden który liczy kliknięcia i wyświetla ich ilość
-
-oraz drugi który po kliknięciu wyświetla powadomienie
-
-Strona określa czas wyświetlania aktywnego modala używając funkcji `setTimeout()` na czas trwania Promise
-
-![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab4/ss/str5a.jpg)
-
-![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab4/ss/str5b.jpg)
 
 Plik `styles.js` przedstawia style do wszystkich stron
 
@@ -87,105 +54,117 @@ import { StyleSheet } from "react-native";
 
 export default StyleSheet.create({
 
-  //Collecting Text Input
+  //Scroll
 
   container: {
     flex: 1,
-    justifyContent: "space-between",
-    backgroundColor: "lightblue",
-    padding: 16,
+    justifyContent: "center",
+    alignItems: "stretch",
+    backgroundColor: "darkorange"
   },
 
-  textInputContainer: {
+  text: {
+    fontSize: 20,
+    textAlign: "center",
+    margin: 5,
+    color: "blue"
+  },
+
+  scroll: {
+    height: 100,
     alignSelf: "stretch"
   },
 
-  textInputLabel: {
-    marginBottom: 6
+  scrollItem: {
+    margin: 10,
+    alignSelf: "center"
   },
 
-  textInput: {
-    backgroundColor: "darkgrey",
-    height: 25,
-    fontSize: 16
-  },
+  //Scrolling
 
-  //Selecting Options
-
-containerselect: {
+  containerScrolling: {
     flex: 1,
-    flexDirection: "row",
-    flexWrap: "wrap",
-    justifyContent: "space-around",
-    alignItems: "center",
+    justifyContent: "center",
+    alignItems: "stretch",
     backgroundColor: "darkblue"
   },
 
-  pickerLabelselect: {
-    fontSize: 40,
-    fontWeight: "bold"
+  textScrolling: {
+    fontSize: 50,
+    textAlign: "left",
+    margin: 17,
+    color: "green"
   },
 
-  selectionselect: {
-    width: 100,
-    marginTop: 300,
-    textAlign: "center"
+  scrollScrolling: {
+    height: 1,
+    alignSelf: "stretch"
   },
 
-  //Toggling On And Off
-
-  containerswitch: {
-    flex: 10,
-    justifyContent: "center",
-    alignItems: "center",
-    backgroundColor: "yellow"
+  scrollItemScrolling: {
+    margin: 20,
+    alignSelf: "stretch"
   },
 
-  customSwitch: {
-    alignItems: "center",
-    margin: 40
-  },
+  //Touch
 
-  modal: {
-	  backgroundColor:"lightgreen",
-  },
-  
-  text: {
-	  fontSize: 30,
-    color: "red",
-    textAlign: "center",
-    marginTop: 300
-  },
-
-// Passive Notifications
-
-  modalContainer: {
+  containerTouch: {
     flex: 1,
     justifyContent: "center",
-    alignItems: "center",
-    backgroundColor: "lightgray"
+    alignItems: "stretch",
+    backgroundColor: "lightblue"
   },
-  containerPassive: {
+
+  buttonTouch: {
+    padding: 10,
+    margin: 5,
+    backgroundColor: "azure",
+    borderWidth: 10,
+    borderRadius: 10,
+    borderColor: "blue"
+  },
+
+  buttonTextTouch: {
+    color: "blue"
+  },
+
+  //Swipe
+
+  containerSwipe: {
     flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
+    justifyContent: "space-between",
+    alignItems: "stretch",
+    backgroundColor: "lightgreen"
+  },
+
+  swipeContainer: {
+    flex: 1,
+    flexDirection: "row",
+    width: 200,
+    height: 30,
+    marginTop: 50,
+    marginLeft: 70
+  },
+
+  swipeItem: {
+    width: 200,
+    height: 30,
     backgroundColor: "lightblue",
-    marginTop: 170,
-    marginBottom: 170,
-  },
-  containerNotification: {
-    flex: 1,
     justifyContent: "center",
-    alignItems: "center",
-    backgroundColor: "darkblue",
+    borderWidth: 5,
+    borderRadius: 40,
+    borderColor: "orange"
   },
 
-  // Collecting Date Time Input
+  swipeItemText: {
+    textAlign: "center",
+    color: "darkorange",
+  },
 
-  containerDate: {
-    margin: 100, 
-    backgroundColor:"red",
-  }
+  swipeBlank: {
+    width: 200,
+    height: 30
+  },
 });
 
 ```

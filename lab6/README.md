@@ -1,52 +1,67 @@
-# LABORATORIUM NUMER 5
+# LABORATORIUM NUMER 6
 
-# obsługa gestów użytkownika
+# obsługa obrazów + tryb offline 
 
-Utworzone zostały cztery ekrany + ekran `home`, który zawiera guziki do dowolnych stron.
+Utworzone zostało sześć ekranów + ekran `home`, który zawiera guziki do dowolnych stron.
 
-Każdy inaczej ostylowany za pomocą pliku `styles.js`
+Każdy ekran inaczej ostylowany za pomocą pliku `styles.js`
 
 Na każdej stronie zostały utworzone guziki które umożliwiają przejście do pozostałych dwóch stron
 
 Wygląd strony Home:
 
-![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab5/ss/home.jpg)
+![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab6/ss/home.jpg)
 
-Pierwsze dwie strony przedstawiają zastosowanie `ScrollView`
+Pierwszy ekran przedstawia ładowanie dwóch obrazków, pierwszy za pomocą właściwości `uri`, a drugi z użyciem metody `require()`
 
-Każda ze stron została ostylowana w inny sposób
+Do ładowania obrazu za pomocą `uri` używamy adresu obrazu w sieci a do ładowania za pomocą `require()` używamy adresu obrazu na naszym komputerze 
 
-Dzięki `ScrollView`, możemy przewijać stronę, nie musimy wszystkiego upychać na jednej stronie
 
-Po prawej stronie na zrzutach ekranu można zauważyć pasek przewijania (scrollbar)
+![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab6/ss/1.jpg)
 
-![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab5/ss/scroll.jpg)
+Na drugim ekranie przedstawiona została zmiana rozmiaru ładowanego obrazka za pomocą komponentu Slider
 
-![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab5/ss/scroll1.jpg)
+W pliku `ResizingImage.js` pobieramy obrazek i ustawiamy wartość początkową w `useState`
 
-Na trzecim ekranie zostały zastosowane `TouchableOpacity` i `TouchableHighlight`
+Komponent `Slider` umożliwia zmianę rozmiaru obrazka
 
-W pliku `Button.js` przedstawione zostały zachowania konkretnych przycisków
+![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab6/ss/2.jpg)
 
-Inaczej zachowuje się przycisk Opacity a inaczej Highlight
+![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab6/ss/2a.jpg)
 
-Zachowania przycisków przedstawione na poniższych zrzutach ekranów:
+Trzeci ekran przedstawia zaimplementowane "leniwe" ładowanie obrazka oraz renderowanie wybranego zestawu ikon
 
-Pierwszy zrzut przedstawia zachowanie przycisku Opacity:
+Ekran trzeci składa się z trzech plików `ButtonLazy.js` który tworzy przycisk, po którego kliknięciu ładuje się obrazek, plik `LazyImage.js`
 
-![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab5/ss/touch.jpg)
+przedstawia sposób załadowania obrazka, plik `LazyLoading.js` łączy dwa wcześniej wymienione pliki i dodatkowo renderuje ikony, 
 
-Drugi zrzut przedstawia zachowanie przycisku Highlight:
+które są zawarte w pliku `icon-name.json`
 
-![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab5/ss/touch1.jpg)
+![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab6/ss/3.jpg)
 
-Na czwartym ekranie został zastosowany `Swipeable`, obsługa przesunięć palcem
+![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab6/ss/3a.jpg)
 
-W pliku `Swipeable.js` zostało przedstawione działanie strony, zostało przedstawione co ma się wydarzyć po przesunięciu przycisku
+Na czwartym ekranie została zaimplementowana detekcja łączności z siecią i wyświetlanie odpowiedniej informacji
 
-W naszym przypadku po przeciągnięciu przycisku w lewo, przycisk znika
+Jeżeli mamy połączenie z internetem to pojawia się napis `connected`, jeżeli nie mamy połączenia to pojawia się napis `disconnected`
 
-![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab5/ss/swipe.jpg)
+![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab6/ss/4.jpg)
+
+![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab6/ss/4a.jpg)
+
+Na piątym ekranie została zaimplementowana obsługa zapisu danych aplikacji za pomocą `AsyncStorage`
+
+Ekran piąty przedstawia dwa przyciski oraz pole do wpisywania danych, jeden z nich umożliwia zapisanie danych a drugi usunięcie wszystkich danych
+
+![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab6/ss/5.jpg)
+
+Na szóstym ekranie została zaimplementowana obsługa synchronizacji danych aplikacji w przypadkach łączności z siecią i jej braku
+
+Działanie strony polega na tym że stany podczas bycia offline są zapamiętywane i są nadal takie same podczas przywrócenia połączenia
+
+![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab6/ss/6.jpg)
+
+![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/lab6/ss/6a.jpg)
 
 
 Plik `styles.js` przedstawia style do wszystkich stron
@@ -58,118 +73,119 @@ import { StyleSheet } from "react-native";
 
 export default StyleSheet.create({
 
-  //Scroll
+  //loading images
 
   container: {
-    flex: 1,
-    justifyContent: "center",
-    alignItems: "stretch",
-    backgroundColor: "darkorange"
-  },
-
-  text: {
-    fontSize: 20,
-    textAlign: "center",
-    margin: 5,
-    color: "blue"
-  },
-
-  scroll: {
-    height: 100,
-    alignSelf: "stretch"
-  },
-
-  scrollItem: {
-    margin: 10,
-    alignSelf: "center"
-  },
-
-  //Scrolling
-
-  containerScrolling: {
     flex: 1,
     justifyContent: "center",
     alignItems: "stretch",
     backgroundColor: "darkblue"
   },
 
-  textScrolling: {
-    fontSize: 50,
-    textAlign: "left",
-    margin: 17,
-    color: "green"
+  image: {
+    width: 125,
+    height: 100,
+    margin: 40
   },
 
-  scrollScrolling: {
-    height: 1,
-    alignSelf: "stretch"
+  //resizing images
+
+  containerSlider: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+    backgroundColor: "orange"
   },
-
-  scrollItemScrolling: {
-    margin: 20,
-    alignSelf: "stretch"
-  },
-
-  //Touch
-
-  containerTouch: {
+  containerNav: {
     flex: 1,
     justifyContent: "center",
     alignItems: "stretch",
+  },
+
+  slider: {
+    width: 100
+  },
+  //network state
+
+  containerState: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
     backgroundColor: "lightblue"
   },
+  welcome: {
+    fontSize: 20,
+    textAlign: "center",
+    margin: 10
+  },
+  instructions: {
+    textAlign: "center",
+    color: "green",
+    marginBottom: 5
+  },
 
-  buttonTouch: {
+  //storing data
+
+  containerStoring: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "stretch",
+    backgroundColor: "green",
+    
+  },
+
+  button: {
+    height: 45,
+    width: 100,
+    padding: 10,
+    marginLeft: 120,
+    marginTop: 20,
+    backgroundColor: "azure",
+    borderWidth: 5,
+    borderRadius: 10,
+    borderColor: "slategrey",
+    justifyContent: "center",
+    alignItems: "center",
+  },
+
+  buttonText: {
+    color: "black",
+  },
+  input: {
+    alignItems: "center",
+    backgroundColor: "azure",
+  },
+  
+
+  //synchronizing data
+
+  containerSync: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "stretch",
+    backgroundColor: "brown"
+  },
+
+
+  //lazy loading
+
+  containerLazy: {
+    flex: 1,
+    backgroundColor: "lightgreen",
+    padding: 10,
+    paddingTop: 20
+  },
+  buttonLazy: {
     padding: 10,
     margin: 5,
-    backgroundColor: "azure",
-    borderWidth: 10,
-    borderRadius: 10,
-    borderColor: "blue"
-  },
-
-  buttonTextTouch: {
-    color: "blue"
-  },
-
-  //Swipe
-
-  containerSwipe: {
-    flex: 1,
-    justifyContent: "space-between",
-    alignItems: "stretch",
-    backgroundColor: "lightgreen"
-  },
-
-  swipeContainer: {
-    flex: 1,
-    flexDirection: "row",
-    width: 200,
-    height: 30,
-    marginTop: 50,
-    marginLeft: 70
-  },
-
-  swipeItem: {
-    width: 200,
-    height: 30,
     backgroundColor: "lightblue",
-    justifyContent: "center",
-    borderWidth: 5,
-    borderRadius: 40,
-    borderColor: "orange"
-  },
+    borderWidth: 10,
+    borderRadius: 15,
+    borderColor: "slategrey"
+   },
 
-  swipeItemText: {
-    textAlign: "center",
-    color: "darkorange",
-  },
-
-  swipeBlank: {
-    width: 200,
-    height: 30
-  },
 });
+
 
 ```
 

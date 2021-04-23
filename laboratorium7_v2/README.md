@@ -34,20 +34,20 @@ Każdy plik jest odpowiedzialny za daną funkcjonalność według nazwy
 Działanie aplikacji:
 
 
-![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/laboratorium7_v2/ss/1.jpg)
+![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/laboratorium7_v2/ss/1.png)
 
-![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/laboratorium7_v2/ss/2.jpg)
+![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/laboratorium7_v2/ss/2.png)
 
-![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/laboratorium7_v2/ss/3.jpg)
+![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/laboratorium7_v2/ss/3.png)
 
-![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/laboratorium7_v2/ss/4.jpg)
+![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/laboratorium7_v2/ss/4.png)
 
-![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/laboratorium7_v2/ss/5.jpg)
+![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/laboratorium7_v2/ss/5.png)
 
-![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/laboratorium7_v2/ss/6.jpg)
+![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/laboratorium7_v2/ss/6.png)
 
-![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/laboratorium7_v2/ss/7.jpg)
+![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/laboratorium7_v2/ss/7.png)
 
-![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/laboratorium7_v2/ss/8.jpg)
+![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/laboratorium7_v2/ss/8.png)
 
-![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/laboratorium7_v2/ss/9.jpg)
+![App](https://github.com/EllwartDawid/aplikacje-mobilne-21788-185IC/blob/master/laboratorium7_v2/ss/9.png)
